@@ -1,0 +1,28 @@
+{
+  "name": "joo",
+  "version": "1.0.0",
+  "description": "URL shortnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joopeed/joo.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "url",
+    "shortner"
+  ],
+  "author": "joopeeds@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joopeed/joo/issues"
+  },
+  "homepage": "https://github.com/joopeed/joo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
