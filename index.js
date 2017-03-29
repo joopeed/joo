@@ -1,5 +1,15 @@
 var express = require('express')
 var app = express()
+var admin = require("firebase-admin");
+
+var serviceAccount = require("/home/joaopedro/joo/joop-5bd39-firebase-adminsdk-f4vro-9f323f770e.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://joop-5bd39.firebaseio.com"
+});
+
+var db = admin.database();
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
@@ -12,26 +22,37 @@ var resources = [
     }
 ];
 
-app.post('/shortned', function(req, res) {
-    var url = req.param('url'); 
-    resources.push({key: url, url: url});
- 
-    res.send('/shortned/' + url);
+app.post('/url', function(req, res) {
+    var url = req.param('url');
+    var ref = db.ref("url"); 
+    var urlsRef = ref.child("url");
+    urlsRef.push({
+      url: "genera"
+    }); 
+    res.send('/shortned/' + "teste");
 });
  
-app.get('/shortned', function(req, res) {
-    res.send(resources);
+app.get('/url', function(req, res) {
+	var ref = db.ref("url/url");
+
+	ref.once("value", function(snapshot) {
+		  res.send(snapshot);
+	});
+    	//res.send("OK");
 });
  
-app.get('/shortned/:key', function(req, res) {
+app.get('/url/:key', function(req, res) {
     var id = req.params.key
-    var result = resources.filter(r => r.id === id)[0];
- 
-    if (!result) {
-        res.sendStatus(404);
-    } else {
-        res.send(result);
-    }
+    var ref = db.ref("url/url/"+id);
+    ref.once("value", function(snapshot) {
+        if(snapshot != "null"){ 
+		res.send(snapshot);
+	} else {
+		res.send("URL NAO ENCONTRAD");
+	}
+    }, function (errorObject) {
+ 	 res.send("URL NAO ENCONTRADA");
+    });
 });
  
 

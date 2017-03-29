@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/joopeed/joo#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "firebase-admin": "^4.1.3"
   }
 }
