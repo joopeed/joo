@@ -1,8 +1,9 @@
 var express = require('express')
 var app = express()
 var admin = require("firebase-admin");
+var ip = require("ip");
 
-var serviceAccount = require("/home/joaopedro/joo/joop-5bd39-firebase-adminsdk-f4vro-9f323f770e.json");
+var serviceAccount = require("/home/ubuntu/joo/joop-5bd39-firebase-adminsdk-f4vro-9f323f770e.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -12,24 +13,17 @@ admin.initializeApp({
 var db = admin.database();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.send('App rodando na maquina: ' + ip.address())
 })
 
-var resources = [
-    {
-        id: 1,
-        name: 'Foo'
-    }
-];
 
 app.post('/url', function(req, res) {
-    var url = req.param('url');
+    var urlkey = req.param('url');
     var ref = db.ref("url"); 
     var urlsRef = ref.child("url");
-    urlsRef.push({
-      url: "genera"
-    }); 
-    res.send('/shortned/' + "teste");
+    var obj = { "shortened": "" + urlkey }
+    posted = urlsRef.push(obj); 
+    res.send('/url/' + posted.key);
 });
  
 app.get('/url', function(req, res) {
@@ -48,7 +42,7 @@ app.get('/url/:key', function(req, res) {
         if(snapshot != "null"){ 
 		res.send(snapshot);
 	} else {
-		res.send("URL NAO ENCONTRAD");
+		res.send("URL NAO ENCONTRADA");
 	}
     }, function (errorObject) {
  	 res.send("URL NAO ENCONTRADA");
@@ -57,5 +51,5 @@ app.get('/url/:key', function(req, res) {
  
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log('App rodando!')
 })
