@@ -1,0 +1,1213 @@
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+Example app listening on port 3000!
+Killed
+
+npm ERR! Linux 4.4.0-66-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Thu, 30 Mar 2017 15:42:13 GMT express deprecated req.param(name): Use req.params, req.body, or req.query instead at index.js:21:22
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Thu, 30 Mar 2017 15:44:03 GMT express deprecated req.param(name): Use req.params, req.body, or req.query instead at index.js:21:22
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/home/ubuntu/joo/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/joo/index.js:53:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Killed
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:33:9
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:33:9
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+/home/ubuntu/joo/index.js:16
+  res.send('App rodando na maquina: ' JSON.stringify("Teste") + ip.address())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:374:25)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+    at node.js:966:3
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+/home/ubuntu/joo/index.js:16
+  res.send('App rodando na maquina: ' JSON.stringify("Teste") + ip.address())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:374:25)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+    at node.js:966:3
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Killed
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/home/ubuntu/joo/node_modules/express/lib/response.js:1070:12)
+    at ServerResponse.json (/home/ubuntu/joo/node_modules/express/lib/response.js:249:14)
+    at ServerResponse.send (/home/ubuntu/joo/node_modules/express/lib/response.js:158:21)
+    at /home/ubuntu/joo/index.js:43:7
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Thu, 30 Mar 2017 16:08:04 GMT express deprecated req.param(name): Use req.params, req.body, or req.query instead at index.js:21:22
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/home/ubuntu/joo/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/joo/index.js:54:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at /home/ubuntu/joo/index.js:43:17
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/home/ubuntu/joo/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/joo/index.js:49:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+Killed
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: snapshot.getValue is not a function
+    at /home/ubuntu/joo/index.js:42:25
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+    at Qg.Xf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:203:281) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: snapshot.getValue is not a function
+    at /home/ubuntu/joo/index.js:42:25
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+    at Qg.Xf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:203:281)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Killed
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+FIREBASE WARNING: Exception was thrown by user callback. TypeError: snapshot.toJSON is not a function
+    at /home/ubuntu/joo/index.js:42:25
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+    at Qg.Xf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:203:281) 
+/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63
+(d="0"+d),c+=d;return c.toLowerCase()}var zc=/^-?\d{1,10}$/;function tc(a){return zc.test(a)&&(a=Number(a),-2147483648<=a&&2147483647>=a)?a:null}function Ac(a){try{a()}catch(b){setTimeout(function(){N("Exception was thrown by user callback.",b.stack||"");throw b;},Math.floor(0))}}function Bc(a,b,c){Object.defineProperty(a,b,{get:c})}function Cc(a,b){var c=setTimeout(a,b);"object"===typeof c&&c.unref&&c.unref();return c};function Dc(a){var b={},c={},d={},e="";try{var f=a.split("."),b=bb(hc(f[0])||""),c=bb(hc(f[1])||""),e=f[2],d=c.d||{};delete c.d}catch(g){}return{yg:b,Ge:c,data:d,og:e}}function Ec(a){a=Dc(a);var b=a.Ge;return!!a.og&&!!b&&"object"===typeof b&&b.hasOwnProperty("iat")}function Fc(a){a=Dc(a).Ge;return"object"===typeof a&&!0===y(a,"admin")};function Gc(a,b,c){this.type=Hc;this.source=a;this.path=b;this.children=c}Gc.prototype.Jc=function(a){if(this.path.e())return a=this.children.subtree(new J(a)),a.e()?null:a.value?new rb(t
+
+TypeError: snapshot.toJSON is not a function
+    at /home/ubuntu/joo/index.js:42:25
+    at c (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:135:58)
+    at /home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:791
+    at Ac (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:63:165)
+    at jf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:126:215)
+    at kf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:125:539)
+    at Gd.h.Eb (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:227:287)
+    at kh.h.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:214:251)
+    at Zg.ud (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:205:364)
+    at Qg.Xf (/home/ubuntu/joo/node_modules/firebase-admin/lib/database/database.js:203:281)
+
+npm ERR! Linux 4.4.0-71-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! joo@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the joo@1.0.0 start script 'node index.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the joo package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs joo
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls joo
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/joo/npm-debug.log
+
+> joo@1.0.0 start /home/ubuntu/joo
+> node index.js
+
+App rodando!
+Thu, 30 Mar 2017 16:20:37 GMT express deprecated req.param(name): Use req.params, req.body, or req.query instead at index.js:21:22

@@ -19,33 +19,29 @@ app.get('/', function (req, res) {
 
 app.post('/url', function(req, res) {
     var urlkey = req.param('url');
-    var ref = db.ref("url"); 
+    var ref = db.ref("bd"); 
     var urlsRef = ref.child("url");
-    var obj = { "shortened": "" + urlkey }
+    var obj = { shortened: "" + urlkey }
     posted = urlsRef.push(obj); 
-    res.send('/url/' + posted.key);
+    res.send('/url/' + JSON.stringify(posted.key));
 });
  
 app.get('/url', function(req, res) {
-	var ref = db.ref("url/url");
+	var ref = db.ref("bd/url");
 
 	ref.once("value", function(snapshot) {
-		  res.send(snapshot);
+		  res.send(JSON.stringify(snapshot));
 	});
     	//res.send("OK");
 });
  
 app.get('/url/:key', function(req, res) {
-    var id = req.params.key
-    var ref = db.ref("url/url/"+id);
+    var id = req.params.key;
+    var ref = db.ref("bd/url/"+id);
     ref.once("value", function(snapshot) {
-        if(snapshot != "null"){ 
-		res.send(snapshot);
-	} else {
-		res.send("URL NAO ENCONTRADA");
-	}
+	res.send("" + snapshot.val().shortened);
     }, function (errorObject) {
- 	 res.send("URL NAO ENCONTRADA");
+ 	res.send("URL NAO ENCONTRADA");
     });
 });
  
